@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B8D62772861BB9500D7F4D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D62762861BB9500D7F4D4 /* AppDelegate.swift */; };
+		7B8D62792861BB9500D7F4D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D62782861BB9500D7F4D4 /* SceneDelegate.swift */; };
+		7B8D627B2861BB9500D7F4D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D627A2861BB9500D7F4D4 /* ViewController.swift */; };
+		7B8D627E2861BB9500D7F4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8D627C2861BB9500D7F4D4 /* Main.storyboard */; };
+		7B8D62812861BB9500D7F4D4 /* LumiereMeal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D627F2861BB9500D7F4D4 /* LumiereMeal.xcdatamodeld */; };
+		7B8D62832861BB9500D7F4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8D62822861BB9500D7F4D4 /* Assets.xcassets */; };
+		7B8D62862861BB9500D7F4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8D62842861BB9500D7F4D4 /* LaunchScreen.storyboard */; };
+		7B8D62912861BB9500D7F4D4 /* LumiereMealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D62902861BB9500D7F4D4 /* LumiereMealTests.swift */; };
+		7B8D629B2861BB9500D7F4D4 /* LumiereMealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D629A2861BB9500D7F4D4 /* LumiereMealUITests.swift */; };
+		7B8D629D2861BB9500D7F4D4 /* LumiereMealUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D629C2861BB9500D7F4D4 /* LumiereMealUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B8D628D2861BB9500D7F4D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B8D626B2861BB9500D7F4D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B8D62722861BB9500D7F4D4;
+			remoteInfo = LumiereMeal;
+		};
+		7B8D62972861BB9500D7F4D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B8D626B2861BB9500D7F4D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B8D62722861BB9500D7F4D4;
+			remoteInfo = LumiereMeal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B8D62732861BB9500D7F4D4 /* LumiereMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumiereMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8D62762861BB9500D7F4D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B8D62782861BB9500D7F4D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B8D627A2861BB9500D7F4D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B8D627D2861BB9500D7F4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B8D62802861BB9500D7F4D4 /* LumiereMeal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LumiereMeal.xcdatamodel; sourceTree = "<group>"; };
+		7B8D62822861BB9500D7F4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B8D62852861BB9500D7F4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B8D62872861BB9500D7F4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B8D628C2861BB9500D7F4D4 /* LumiereMealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumiereMealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8D62902861BB9500D7F4D4 /* LumiereMealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiereMealTests.swift; sourceTree = "<group>"; };
+		7B8D62962861BB9500D7F4D4 /* LumiereMealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumiereMealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8D629A2861BB9500D7F4D4 /* LumiereMealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiereMealUITests.swift; sourceTree = "<group>"; };
+		7B8D629C2861BB9500D7F4D4 /* LumiereMealUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiereMealUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B8D62702861BB9500D7F4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8D62892861BB9500D7F4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8D62932861BB9500D7F4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B8D626A2861BB9500D7F4D4 = {
+			isa = PBXGroup;
+			children = (
+				7B8D62752861BB9500D7F4D4 /* LumiereMeal */,
+				7B8D628F2861BB9500D7F4D4 /* LumiereMealTests */,
+				7B8D62992861BB9500D7F4D4 /* LumiereMealUITests */,
+				7B8D62742861BB9500D7F4D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B8D62742861BB9500D7F4D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B8D62732861BB9500D7F4D4 /* LumiereMeal.app */,
+				7B8D628C2861BB9500D7F4D4 /* LumiereMealTests.xctest */,
+				7B8D62962861BB9500D7F4D4 /* LumiereMealUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B8D62752861BB9500D7F4D4 /* LumiereMeal */ = {
+			isa = PBXGroup;
+			children = (
+				7B8D62762861BB9500D7F4D4 /* AppDelegate.swift */,
+				7B8D62782861BB9500D7F4D4 /* SceneDelegate.swift */,
+				7B8D627A2861BB9500D7F4D4 /* ViewController.swift */,
+				7B8D627C2861BB9500D7F4D4 /* Main.storyboard */,
+				7B8D62822861BB9500D7F4D4 /* Assets.xcassets */,
+				7B8D62842861BB9500D7F4D4 /* LaunchScreen.storyboard */,
+				7B8D62872861BB9500D7F4D4 /* Info.plist */,
+				7B8D627F2861BB9500D7F4D4 /* LumiereMeal.xcdatamodeld */,
+			);
+			path = LumiereMeal;
+			sourceTree = "<group>";
+		};
+		7B8D628F2861BB9500D7F4D4 /* LumiereMealTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B8D62902861BB9500D7F4D4 /* LumiereMealTests.swift */,
+			);
+			path = LumiereMealTests;
+			sourceTree = "<group>";
+		};
+		7B8D62992861BB9500D7F4D4 /* LumiereMealUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B8D629A2861BB9500D7F4D4 /* LumiereMealUITests.swift */,
+				7B8D629C2861BB9500D7F4D4 /* LumiereMealUITestsLaunchTests.swift */,
+			);
+			path = LumiereMealUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B8D62722861BB9500D7F4D4 /* LumiereMeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8D62A02861BB9500D7F4D4 /* Build configuration list for PBXNativeTarget "LumiereMeal" */;
+			buildPhases = (
+				7B8D626F2861BB9500D7F4D4 /* Sources */,
+				7B8D62702861BB9500D7F4D4 /* Frameworks */,
+				7B8D62712861BB9500D7F4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LumiereMeal;
+			productName = LumiereMeal;
+			productReference = 7B8D62732861BB9500D7F4D4 /* LumiereMeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B8D628B2861BB9500D7F4D4 /* LumiereMealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8D62A32861BB9500D7F4D4 /* Build configuration list for PBXNativeTarget "LumiereMealTests" */;
+			buildPhases = (
+				7B8D62882861BB9500D7F4D4 /* Sources */,
+				7B8D62892861BB9500D7F4D4 /* Frameworks */,
+				7B8D628A2861BB9500D7F4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B8D628E2861BB9500D7F4D4 /* PBXTargetDependency */,
+			);
+			name = LumiereMealTests;
+			productName = LumiereMealTests;
+			productReference = 7B8D628C2861BB9500D7F4D4 /* LumiereMealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B8D62952861BB9500D7F4D4 /* LumiereMealUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8D62A62861BB9500D7F4D4 /* Build configuration list for PBXNativeTarget "LumiereMealUITests" */;
+			buildPhases = (
+				7B8D62922861BB9500D7F4D4 /* Sources */,
+				7B8D62932861BB9500D7F4D4 /* Frameworks */,
+				7B8D62942861BB9500D7F4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B8D62982861BB9500D7F4D4 /* PBXTargetDependency */,
+			);
+			name = LumiereMealUITests;
+			productName = LumiereMealUITests;
+			productReference = 7B8D62962861BB9500D7F4D4 /* LumiereMealUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B8D626B2861BB9500D7F4D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7B8D62722861BB9500D7F4D4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7B8D628B2861BB9500D7F4D4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7B8D62722861BB9500D7F4D4;
+					};
+					7B8D62952861BB9500D7F4D4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7B8D62722861BB9500D7F4D4;
+					};
+				};
+			};
+			buildConfigurationList = 7B8D626E2861BB9500D7F4D4 /* Build configuration list for PBXProject "LumiereMeal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ko,
+				Base,
+			);
+			mainGroup = 7B8D626A2861BB9500D7F4D4;
+			productRefGroup = 7B8D62742861BB9500D7F4D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B8D62722861BB9500D7F4D4 /* LumiereMeal */,
+				7B8D628B2861BB9500D7F4D4 /* LumiereMealTests */,
+				7B8D62952861BB9500D7F4D4 /* LumiereMealUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B8D62712861BB9500D7F4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8D62862861BB9500D7F4D4 /* LaunchScreen.storyboard in Resources */,
+				7B8D62832861BB9500D7F4D4 /* Assets.xcassets in Resources */,
+				7B8D627E2861BB9500D7F4D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8D628A2861BB9500D7F4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8D62942861BB9500D7F4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B8D626F2861BB9500D7F4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8D627B2861BB9500D7F4D4 /* ViewController.swift in Sources */,
+				7B8D62772861BB9500D7F4D4 /* AppDelegate.swift in Sources */,
+				7B8D62812861BB9500D7F4D4 /* LumiereMeal.xcdatamodeld in Sources */,
+				7B8D62792861BB9500D7F4D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8D62882861BB9500D7F4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8D62912861BB9500D7F4D4 /* LumiereMealTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8D62922861BB9500D7F4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8D629B2861BB9500D7F4D4 /* LumiereMealUITests.swift in Sources */,
+				7B8D629D2861BB9500D7F4D4 /* LumiereMealUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B8D628E2861BB9500D7F4D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B8D62722861BB9500D7F4D4 /* LumiereMeal */;
+			targetProxy = 7B8D628D2861BB9500D7F4D4 /* PBXContainerItemProxy */;
+		};
+		7B8D62982861BB9500D7F4D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B8D62722861BB9500D7F4D4 /* LumiereMeal */;
+			targetProxy = 7B8D62972861BB9500D7F4D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B8D627C2861BB9500D7F4D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B8D627D2861BB9500D7F4D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B8D62842861BB9500D7F4D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B8D62852861BB9500D7F4D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B8D629E2861BB9500D7F4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B8D629F2861BB9500D7F4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B8D62A12861BB9500D7F4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67YPF88Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LumiereMeal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = so.object.LumiereMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B8D62A22861BB9500D7F4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67YPF88Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LumiereMeal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = so.object.LumiereMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B8D62A42861BB9500D7F4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67YPF88Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = so.object.LumiereMealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumiereMeal.app/LumiereMeal";
+			};
+			name = Debug;
+		};
+		7B8D62A52861BB9500D7F4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67YPF88Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = so.object.LumiereMealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumiereMeal.app/LumiereMeal";
+			};
+			name = Release;
+		};
+		7B8D62A72861BB9500D7F4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67YPF88Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = so.object.LumiereMealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LumiereMeal;
+			};
+			name = Debug;
+		};
+		7B8D62A82861BB9500D7F4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67YPF88Z6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = so.object.LumiereMealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LumiereMeal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B8D626E2861BB9500D7F4D4 /* Build configuration list for PBXProject "LumiereMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8D629E2861BB9500D7F4D4 /* Debug */,
+				7B8D629F2861BB9500D7F4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8D62A02861BB9500D7F4D4 /* Build configuration list for PBXNativeTarget "LumiereMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8D62A12861BB9500D7F4D4 /* Debug */,
+				7B8D62A22861BB9500D7F4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8D62A32861BB9500D7F4D4 /* Build configuration list for PBXNativeTarget "LumiereMealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8D62A42861BB9500D7F4D4 /* Debug */,
+				7B8D62A52861BB9500D7F4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8D62A62861BB9500D7F4D4 /* Build configuration list for PBXNativeTarget "LumiereMealUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8D62A72861BB9500D7F4D4 /* Debug */,
+				7B8D62A82861BB9500D7F4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7B8D627F2861BB9500D7F4D4 /* LumiereMeal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7B8D62802861BB9500D7F4D4 /* LumiereMeal.xcdatamodel */,
+			);
+			currentVersion = 7B8D62802861BB9500D7F4D4 /* LumiereMeal.xcdatamodel */;
+			path = LumiereMeal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7B8D626B2861BB9500D7F4D4 /* Project object */;
+}
